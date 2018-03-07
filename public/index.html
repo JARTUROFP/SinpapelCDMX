@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sin Papel CDMX</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="vendors/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/jquery-ui-dist/jquery-ui.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Javascript -->
+    <script src="vendors/jquery/dist/jquery.js"></script>
+    <script src="vendors/jquery-ui-dist/jquery-ui.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="container">
+    <nav class="level">
+        <!-- Left Side -->
+        <div class="level-left">
+            <div class="level-item">
+                <figure class="image">
+                    <img src="assets/logotiposinpapel.svg">
+                </figure>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="level-right">
+            <div class="level-item">
+                <figure class="image">
+                    <img src="assets/logotipocdmxsefinsinpapel.svg">
+                </figure>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Primera Sección -->
+<section class="hero is-success">
+    <div class="hero-body" id="hero-body">
+        <div class="container" id="inicio">
+            <div class="text">
+                <img src="assets/logotiposinpapelrosa.svg" id="spapel" />
+                    <p class="has-text-justified" id="title">Obtén en tu correo electrónico
+                        <br>
+                        <span id="subtitle">las boletas de Predial, Tenencia
+                        <br>y Mercados Públicos.</span></p>
+                <a href="registrate.html" class="button is-danger is-medium" id="btn">
+                    <span class="icon is-medium">
+                        <i class="fa fa-desktop"></i>
+                    </span>
+                    <span>
+                        Regístrate
+                    </span>
+                </a>
+            </div>
+            <figure class="image is-16by9" id="laptop">
+                <img src="assets/laptopgrandesinpapel.svg">
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!-- Section formulario -->
+<section class="hero">
+    <div class="hero-body" id="formulario">
+        <div class="container">
+            <p class="has-text-justified-desktop" id="subtitle">Sin Papel<span id="texto_rosa"> CDMX</span></p>
+            <br>
+            <div class="field">
+                <p class="control">
+                    <input class="input" type="email" placeholder="Usuario" id="login">
+                </p>
+            </div>
+            <br>
+            <div class="field">
+                <p class="control">
+                    <input class="input" type="password" placeholder="Contraseña" id="login">
+                </p>
+            </div>
+            <br>
+            <p class="has-text-justified">
+                <a href="olvidar_contrasena.html" id="info-formulario"><u>¿Olvidaste tu contraseña?</u></a>
+            </p>
+            <a class="button is-medium has-text-centered" id="btn-formulario">
+                <span>
+                    Entrar
+                </span>
+            </a>
+            <br>
+            <br>
+            <br>
+            <p class="has-text-justified" id="info-sinpapel">
+                Si ya te habias registrado y no has activado tu cuenta de acceso, ingresa a continuación
+                tu correo electrónico con el que te registraste y recibirás un correo con las instrucciones
+                de activación.
+            </p>
+            <br>
+            <div class="field">
+                <p class="control">
+                    <input class="input" type="email" placeholder="Correo Electrónico" id="reingreso">
+                </p>
+                <br>
+                <a class="button is-medium has-text-centered" id="btn-reingreso">
+                    <span>
+                        Enviar
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section objetivo -->
+<section class="hero">
+    <div class="hero-body" id="objetivo">
+        <div class="container">
+            <article>
+                <h1 class="has-text-justified" id="subtitle"><span id="texto_rosa">Objetivo</span></h1>
+                <p class="has-text-justified" id="info-sinpapel">
+                    Actualmente la tendencia mundial es la implantación de un Gobierno Digital para el manejo automatizado de la información.
+                    Por este motivo necesitamos realizar un cambio de mentalidad pues los beneficios que ofrecen una oficina sin papel se traducen
+                    principalmente en productividad, eficiencia y ahorro.
+                </p>
+                <br>
+                <br>
+                <h1 class="has-text-justified" id="subtitle"><span id="texto_rosa">Importancia</span></h1>
+                <p class="has-text-justified" id="info-sinpapel">
+                    Los beneficios que otorga a nuestra Ciudad el Programa Sin Papel CDMX, son muy importantes porque además de incrementar la
+                    productividad porque centraliza la información y utiliza documentos electrónicos que hacen fluir la información rápidamente.
+                    Reduce drásticamente los costos asociados al uso de papel y lo mas importante de todo ayudamos a la conservación del Medio
+                    Ambiente evitando una tala indiscriminada de árboles, fuente de oxígeno de nuestra Ciudad.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Section infografia -->
+<section class="hero">
+    <div class="hero-body" id="ambiente">
+        <div class="container" id="infografia">
+            <p class="has-text-centered" id="subtitle">Contribuye a la Conservación del <span id="texto_verde">Medio Ambiente</span></p>
+            <br>
+            <img src="assets/infog_tip.svg" class="has-text-centered" id="info-tip">
+        </div>
+    </div>
+</section>
+
+<!-- Section Datos Personales -->
+<section class="hero" id="datos-personales">
+    <div class="hero-body">
+        <div class="container">
+            <div class="level-left">
+                <div class="level-item">
+                    <p class="has-text-justified">
+                        <a id="info-personal"><u>Protección de Datos Personales</u></a>
+                    </p>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <p class="field">
+                        <a class="button" id="desplegable">
+                            <i class="fa fa-angle-down" id="datos-flecha"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero" id="ley-section">
+    <div class="hero-body" id="datos-ley">
+        <div class="container">
+            <article>
+                <p class="has-text-justified" id="info-sinpapel">
+                    "Los datos personales recabados serán protegidos, incorporados y tratados en el Sistema de Datos Personales Sin Papel CDMX, el cual tiene su fundamento en los artículos 6,7,8 y 9 de la Ley de Protección de Datos Personales para el Distrito Federal, artículo 15 del Código Fiscal del Distrito Federal, y en el numeral 13 de los Lineamientos para la Protección de Datos Personales en el Distrito Federal, cuya finalidad es registrar a todo aquel contribuyente que desee obtener de manera electrónica sus boletas por los conceptos de Impuesto Predial, Impuesto sobre Tenencia o Uso de Vehículos o Mercados Públicos, y podrán ser transmitidos a la Secretaría de Hacienda y Crédito Público, a la Comisión de Derechos Humanos del Distrito Federal, al Instituto de Acceso a la Información Pública y Protección de Datos Personales del Distrito Federal, a la Contaduría Mayor de Hacienda de la Asamblea Legislativa del Distrito Federal, a los Órganos de Control y a los Órganos Jurisdiccionales, además de otras transmisiones previstas en la Ley de Protección de Datos Personales para el Distrito Federal, lo anterior de conformidad con lo establecido en la Ley de la materia.
+                    <br>
+                    <br>
+                    Los datos marcados con un asterisco (*) son obligatorios y sin ellos no podrá acceder al servicio o completar el trámite de registro en el Sistema de Datos Personales Sin Papel CDMX.
+                    <br>
+                    <br>
+                    Asimismo, se le informa que sus datos no podrán ser difundidos sin su consentimiento expreso, salvo las excepciones previstas en la Ley.
+                    <br>
+                    <br>
+                    El responsable del sistema de datos personales es el C. Alejandro Pérez Hernández, y la dirección donde podrá ejercer los derechos de acceso, rectificación, cancelación y oposición, así como la revocación del consentimiento es en Avenida José María Izazaga 89, 6to piso, Col. Centro (Área 8), Del. CUAUHTÉMOC , 06080, es esta Ciudad.
+                    <br>
+                    <br>
+                    El titular de los datos podrá dirigirse al Instituto de acceso a la Información Pública del Distrito Federal, donde recibirá asesoría sobre los derechos que tutela la Ley de Protección de datos Personales para el Distrito Federal al teléfono: 56364636; correo electrónico: datos.personales@infodf.org.mx o www.infodf.org.mx".
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Section Info -->
+<section class="hero" id="more-info">
+    <div class="hero-body">
+        <div class="container">
+            <article>
+                <h1 class="has-text-justified" id="subtitle"><span id="texto_rosa">Más Información</span></h1>
+                <p class="has-text-justified" id="more-sinpapel">
+                    En Contributel 5588-3388, www.finanzas.cdmx.gob.mx y en la Administración Tributaria o Centro de Servicio de la Tesorería
+                    más cercano a tu domicilio.
+                </p>
+            </article>
+            <br>
+            <br>
+            <div class="level-right">
+                <div class="level-item">
+                    <img src="assets/iconoinformacion.png" id="info-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Politica -->
+<section class="hero" id="advertencia">
+    <div class="hero-body">
+        <div class="container">
+            <p class="has-text-justified" id="advertencia-sinpapel">
+                Este programa es de carácter público, no es patrocinado ni promovido por partido politico alguno y sus
+                recursos provienen de los impuestos que pagan todos los contribuyentes. está prohibido el uso de este
+                programa con fines políticos, electorales, de lucro y otros distintos a los establecidos. Quien haga uso
+                indebido de los recursos de este programa en la Ciudad de México, será sancionado de acuerdo con la ley
+                aplicable y ante la autoridad competente.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<div class="hero" id="footer">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Atención Ciudadana</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <p class="has-text-justified-desktop">
+                                <span id="strong">Dirección:</span> Calle Doctor Lavista 144, Colonia Doctores,
+                                Delegación Cuauhtémoc, C.P. 06720, Ciudad de México.
+                                <br>
+                                <span id="strong">Teléfono:</span> 55 88 33 88
+                            </p>
+                            <br>
+                            <br>
+							  <a href="#" id="link-finanzas"><u>
+								   http://www.finanzas.cdmx.gob.mx/</u></a> 
+                            <br>
+                            <br>
+
+   							<section>
+								<ul class="icons">
+									<li><a href="https://es-es.facebook.com/FinanzasCDMX?sk=wall" class="icon style2 fa fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://twitter.com/Finanzas_CDMX" class="icon style2 fa fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.youtube.com/channel/UC2wcbLYzyWq5kL2t0M2MrFA?feature=guide" class="icon style2 fa fa-youtube-play"><span class="label">Youtube</span></a></li>	
+								</ul>
+							</section>
+							
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Navegación</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-justified-desktop">
+                                <a href="index.html" id="links-internos"><li>Inicio</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/secretaria" id="links-internos"><li>Secretaria</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/servicios" id="links-internos"><li>Servicios</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/programas" id="links-internos"><li>Programas</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/notificaciones" id="links-internos"><li>Notificaciones</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/secretaria/transparencia" id="links-internos"><li>Transparencia</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Sitios Relacionados</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-justified-desktop">
+                                <a href="http://www.data.consejeria.cdmx.gob.mx/index.php/gaceta" id="links-relacionados"><li>Gaceta Oficial de la Ciudad de México</li></a>
+                                <a href="http://www.fidere3.df.gob.mx/" id="links-relacionados"><li>Fidere</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/servicios-al-contribuyente/constancia-de-credito-simple" id="links-relacionados"><li>Contratación de Crédito Simple 2016</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/storage/app/uploads/public/585/c35/b5e/585c35b5e8c44585173852.pdf" id="links-relacionados"><li>Contrato de Crédito HSBC 2016</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Sitios Externos</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-centered">
+                                <a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/ventanillas_unicas_delegacionales_vud_aacs"><img src="assets/vud.svg"></li></a>
+                                <a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/directorio_de_responsables_de_cesac"><li><img src="assets/cesac.svg"></li></a>
+                                <a href="http://www.datosabiertos.cdmx.gob.mx"><li><img src="assets/datos.svg"></li></a>
+                                <a href="http://www.contratosabiertos.cdmx.gob.mx/"><li><img src="assets/contratos_abiertos.svg"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Brand Section -->
+<div class="hero" id="brand">
+    <div class="hero-body">
+        <div class="container">
+            <p class="has-text-centered" id="cdmx">
+                <img src="assets/Logo_CDMX.png">
+            </p>
+            <br>
+            <p class="has-text-centered">
+                <a href="http://www.finanzas.cdmx.gob.mx/terminos-y-condiciones#Datos-personales" id="info-personal"><u>Aviso de Privacidad</u></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+entrega inmediata jose garcia
+<!-- Scripts Section -->
+<script>
+  $(document).ready(function () {
+      $('#desplegable').click(function () {
+          $('#ley-section').toggle('slide', {
+              duration: 1000,
+              easing: 'swing',
+              direction: 'up'
+          });
+      });
+  });
+
+  $('#datos-flecha').click(function () {
+      $(this).toggleClass("up");
+  });
+
+  $('#advertencia-close').click(function () {
+      $(this).toggleClass("up");
+  });
+</script>
+</body>
+</html>

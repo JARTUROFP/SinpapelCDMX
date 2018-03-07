@@ -1,0 +1,656 @@
+@import "../vendors/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+
+/* Fuentes */
+$dosis: 'Dosis', sans-serif;
+$dosis_extra_light: 200;
+$dosis_light: 300;
+$dosis_regular: 400;
+$dosis_medium: 500;
+$dosis_semi_bold: 600;
+$dosis_bold: 700;
+
+/* Colores */
+$primary_color: #ffffff;
+$accent_color: #fef0f8;
+$secondary_background_color: #f5f1f5;
+$emphasis_color: #FF0997;
+$link_emphasis_color: #ff00ff;
+$light_color: #9c9d9d;
+$dark_color: #000000;
+$lighter_dark_color: #333333;
+$lighter_color: #dfdfdf;
+$ambiente_color: #94b744;
+
+/* Valores */
+$text_size: 40pt;
+$article_size: 24pt;
+$icon_size: 2.5em;
+$advertencia_size: 1.5em;
+$footer_size: 0.7em;
+$footer_inside_size: 1.4em;
+$strong_size: 1.15em;
+$link_size: 1em;
+
+/* Estilos Generales */
+body {
+  background: $primary_color;
+  border-bottom: 0.2px solid $lighter_color;
+}
+
+.hero.is-success {
+  background: $accent_color;
+  background-image: url("texturadesobres.png");
+  background-repeat: no-repeat;
+  background-position: 590% 50%;
+}
+
+.image.is-16by9 {
+  margin-top: -49%;
+  margin-left: 55.5%;
+}
+
+.text {
+  margin-top: 10%;
+}
+
+#spapel {
+  width: 45%;
+  margin-left: -1.5%;
+}
+
+#laptop {
+  width: 47%;
+  height: 30%;
+}
+
+#title {
+  font-family: $dosis;
+  font-weight: $dosis_extra_light;
+  font-size: $text_size;
+  color: $light_color;
+}
+
+#subtitle {
+  font-family: $dosis;
+  font-weight: $dosis_regular;
+  font-size: $text_size;
+  color: $dark_color;
+}
+
+#hero-body {
+  margin-bottom: 15%;
+}
+
+#btn {
+  background-color: $light_color;
+  color: $primary_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 35%;
+  margin-top: 6%;
+}
+
+#btn:hover {
+  background-color: $emphasis_color;
+  color: $primary_color;
+}
+
+#ambiente {
+  background-color: $primary_color;
+}
+
+#texto_verde {
+  color: $ambiente_color;
+}
+
+#texto_rosa {
+  color: $emphasis_color;
+}
+
+#info-tip {
+  width: 99%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#objetivo {
+  background-color: $secondary_background_color;
+}
+
+#info-sinpapel {
+  font-size: $article_size;
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  color: $light_color;
+}
+
+#infografia {
+  margin-top: 0%;
+}
+
+#inicio {
+  margin-top: 5%;
+}
+
+#formulario {
+  background-color: $primary_color;
+}
+
+#reingreso {
+  width: 100%;
+  background-color: $lighter_color;
+  color: $dark_color;
+  font-family: $dosis;
+  font-weight: $dosis_regular;
+  font-size: $advertencia_size;
+}
+
+#btn-reingreso {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 86%;
+  margin-top: 2%;
+  width: 14%;
+}
+
+#btn-reingreso:hover {
+  background-color: $emphasis_color;
+  color: $primary_color;
+  border-color: $link_emphasis_color;
+}
+
+#reingreso:hover {
+  border-color: $emphasis_color;
+}
+
+#reingreso:active, #reingreso:focus {
+  border-color: $emphasis_color;
+  box-shadow: 0 0 0 0.100em rgba(255, 8, 237, 0.25);
+}
+
+#info-formulario {
+  font-size: $article_size;
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  color: $emphasis_color;
+}
+
+#info-formulario:hover {
+  color: $link_emphasis_color;
+}
+
+#btn-formulario {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 86%;
+  margin-top: -4%;
+  width: 14%;
+}
+
+#btn-formulario:hover {
+  background-color: $emphasis_color;
+  color: $primary_color;
+  border-color: $link_emphasis_color;
+}
+
+#datos-personales {
+  background-color: $accent_color;
+}
+
+#login {
+  width: 100%;
+  background-color: $lighter_color;
+  color: $dark_color;
+  font-family: $dosis;
+  font-weight: $dosis_regular;
+  font-size: $advertencia_size;
+}
+
+#login:hover {
+  border-color: $emphasis_color;
+}
+
+#login:active, #login:focus {
+  border-color: $emphasis_color;
+  box-shadow: 0 0 0 0.100em rgba(255, 8, 237, 0.25);
+}
+
+#info-personal {
+  font-size: $article_size;
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  color: $emphasis_color;
+}
+
+#info-personal:hover {
+  color: $link_emphasis_color;
+}
+
+ u {
+   text-decoration: none;
+   border-bottom: 1.5px solid $emphasis_color;
+ }
+
+ u:hover {
+   border-bottom: 1.5px solid $link_emphasis_color;
+ }
+
+ #datos-flecha {
+   margin-top: -40px;
+   color: $emphasis_color;
+   font-size: $icon_size;
+   font-weight: $dosis_bold;
+   -moz-transition: all 1s linear;
+   -webkit-transition: all 1s linear;
+   transition: all 1s linear;
+ }
+
+ #datos-flecha.up {
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   transform: rotate(180deg);
+ }
+
+ #desplegable {
+   background-color: transparent;
+   border-color: transparent;
+ }
+
+ #datos-ley {
+   background-color: $secondary_background_color;
+ }
+
+ #more-info {
+   background-color: $primary_color;
+ }
+
+ #info-icon {
+   width: 15%;
+   margin-left: 90%;
+ }
+
+ #more-sinpapel {
+   font-size: $article_size;
+   font-family: $dosis;
+   font-weight: $dosis_light;
+   color: $light_color;
+ }
+
+ #advertencia {
+   background-color: $secondary_background_color;
+ }
+
+ #advertencia-sinpapel {
+   font-size: $advertencia_size;
+   font-family: $dosis;
+   font-weight: $dosis_light;
+   color: $emphasis_color;
+ }
+
+ #footer {
+   background-color: $lighter_dark_color;
+ }
+
+ #texto_blanco {
+   color: $primary_color;
+   font-size: $footer_size;
+   font-weight: $dosis_extra_light;
+ }
+
+ #card {
+   background-color: $lighter_dark_color;
+   color: $primary_color;
+   font-family: $dosis;
+   font-weight: $dosis_extra_light;
+   font-size: $footer_inside_size;
+   box-shadow: 0 0px 0px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+ }
+
+ #strong {
+   font-family: $dosis;
+   font-weight: $dosis_bold;
+   font-size: $strong_size;
+ }
+
+ #link-finanzas {
+   color: $emphasis_color;
+   font-family: $dosis;
+   font-weight: $dosis_extra_light;
+   font-size: $link_size;
+ }
+
+ #link-finanzas:hover {
+   color: $link_emphasis_color;
+ }
+
+ #links-internos {
+   color: $primary_color;
+   font-family: $dosis;
+   font-weight: $dosis_extra_light;
+   font-size: $link_size;
+ }
+
+ #links-relacionados {
+   color: $primary_color;
+   font-family: $dosis;
+   font-weight: $dosis_extra_light;
+   font-size: $link_size;
+ }
+
+ #links-relacionados:hover, #links-internos:hover {
+   color: $light_color;
+ }
+
+ #brand {
+   background-color: $primary_color;
+ }
+
+ #cdmx {
+   margin-left: 6%;
+ }
+
+ #opciones-sinpapel {
+  background-color: $secondary_background_color;
+}
+
+ #perfil-datos {
+  background-color: $primary_color;
+}
+
+ #logo-perfil {
+  width: 10%;
+}
+
+ #btn-cancelar {
+  background-color: $light_color;
+  color: $primary_color;
+  border: 1px solid $light_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-right: 25%;
+  margin-top: -18%;
+  width: 100%;
+}
+
+ #btn-cancelar:hover {
+   color: $primary_color;
+   background-color: $emphasis_color;
+   border: 1px solid $link_emphasis_color;
+ }
+
+ #btn-perfil {
+   background-repeat: no-repeat;
+   margin-top: 0%;
+   width: 60%;
+ }
+
+ #btn-tenencia {
+   background-repeat: no-repeat;
+   margin-top: 0%;
+   width: 60%;
+ }
+
+ #btn-predial {
+   background-repeat: no-repeat;
+   margin-top: 0%;
+   width: 60%;
+ }
+
+ #btn-mercados {
+   background-repeat: no-repeat;
+   margin-top: 0%;
+   width: 60%;
+   margin-left: 5%;
+ }
+
+#perfil-invisible {
+  background-color: transparent;
+  border-color: transparent;
+  height: 0%;
+  margin-right: 5%;
+}
+
+#items {
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  font-size: $advertencia_size;
+  color: $lighter_dark_color;
+}
+
+#items:hover {
+  color: $emphasis_color;
+}
+
+#btn-tabla {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 34%;
+  margin-top: -4%;
+  width: 20%;
+}
+
+#btn-tabla:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#btn-ingreso {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 34%;
+  margin-top: -4%;
+  width: 20%;
+}
+
+#btn-ingreso:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#btn-borrar {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 50%;
+  margin-top: -4%;
+  width: 45%;
+}
+
+#btn-borrar:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#datos-tabla {
+  background-color: $accent_color;
+  color: $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_semi_bold;
+  font-size: $advertencia_size;
+}
+
+#datos-body {
+  color: $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  font-size: $footer_inside_size;
+}
+
+.table td, .table th{
+  border: 1px solid transparent;
+}
+
+#datos-cuenta {
+  background-color: $emphasis_color;
+  color: $primary_color;
+  font-family: $dosis;
+  font-weight: $dosis_semi_bold;
+  font-size: $advertencia_size;
+}
+
+#datos-leyenda {
+  color: $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_semi_bold;
+  font-size: $advertencia_size;
+}
+
+#perfil-atras {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-top: -4%;
+  width: 100%;
+}
+
+#perfil-atras:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#perfil-guardar {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-top: -50%;
+  width: 100%;
+}
+
+#perfil-guardar:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#texto-negro {
+  color: $dark_color;
+}
+
+#card-advertencia {
+  color: $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_semi_bold;
+  font-size: $advertencia_size;
+}
+
+#card-warning {
+  background-color: $accent_color;
+}
+
+#texto-desactivar {
+  color: $lighter_dark_color;
+  font-family: $dosis;
+  font-weight: $dosis_light;
+  font-size: $advertencia_size;
+}
+
+#card-eliminar {
+  box-shadow: 0 0 0 rgba(10, 10, 10, 0.1), 0 0 0 0 rgba(10, 10, 10, 0.1)
+}
+
+#icon-black {
+  color: $dark_color;
+}
+
+#icon-black:hover {
+  color: $emphasis_color;
+}
+
+#tenencia-agregar {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-top: -10%;
+  width: 100%;
+}
+
+#tenencia-agregar:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}
+
+#advertencia-close {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-left: 86%;
+  margin-top: -4%;
+  width: 14%;
+}
+
+#social {
+  color: $lighter_dark_color;
+  background-color: $light_color;
+  width: 100%;
+  padding: 20%;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#social:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+}
+
+.button:focus:not(:active), .button.is-focused:not(:active) {
+  box-shadow: 0 0 0 rgba(10, 10, 10, 0.1), 0 0 0 0 rgba(10, 10, 10, 0.1)
+}
+
+#perfil-continuar {
+  background-color: $primary_color;
+  color: $emphasis_color;
+  border: 1px solid $emphasis_color;
+  font-family: $dosis;
+  font-weight: $dosis_medium;
+  font-size: $advertencia_size;
+  margin-top: -43%;
+  width: 100%;
+}
+
+#perfil-continuar:hover {
+  color: $primary_color;
+  background-color: $emphasis_color;
+  border-color: $link_emphasis_color;
+}

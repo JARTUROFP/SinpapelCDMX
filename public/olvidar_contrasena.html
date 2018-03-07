@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sin Papel CDMX</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="vendors/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/jquery-ui-dist/jquery-ui.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Javascript -->
+    <script src="vendors/jquery/dist/jquery.js"></script>
+    <script src="vendors/jquery-ui-dist/jquery-ui.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="container">
+    <nav class="level">
+        <!-- Left Side -->
+        <div class="level-left">
+            <div class="level-item">
+                <figure class="image">
+                    <img src="assets/logotiposinpapel.svg">
+                </figure>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="level-right">
+            <div class="level-item">
+                <figure class="image">
+                    <img src="assets/logotipocdmxsefinsinpapel.svg">
+                </figure>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Content Section -->
+<div class="hero" id="opciones-sinpapel">
+    <div class="hero-body">
+        <div class="container">
+            <div class="level-left">
+                <div class="level-item">
+                    <figure class="image">
+                        <img src="assets/logotiposinpapelrosa.png" id="logo-perfil"/>
+                    </figure>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <a href="cambiar_contrasena.html" class="button is-medium has-text-centered" id="btn-cancelar">
+                        <span class="icon">
+                            <i class="fa fa-key"></i>
+                        </span>
+                        <span> Cambiar Contraseña</span>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="columns">
+                <div class="column">
+                    <p class="field">
+                        <a href="perfil.html" class="button" id="perfil-invisible">
+                            <img src="assets/perfil_apagado.png" id="btn-perfil" onmouseover="this.src='assets/perfil_encendido.png'"
+                                 onmouseout="this.src='assets/perfil_apagado.png'">
+                        </a>
+                    </p>
+                    <br>
+                    <h1 class="has-text-centered" id="items">Perfil</h1>
+                </div>
+                <div class="column">
+                    <p class="field">
+                        <a href="tenencia.html" class="button" id="perfil-invisible">
+                            <img src="assets/tenencia_apagado.png" id="btn-tenencia" onmouseover="this.src='assets/tenencia_encendido.png'"
+                                 onmouseout="this.src='assets/tenencia_apagado.png'">
+                        </a>
+                    </p>
+                    <br>
+                    <h1 class="has-text-centered" id="items">Tenenecia</h1>
+                </div>
+                <div class="column">
+                    <p class="field">
+                        <a href="predial.html" class="button" id="perfil-invisible">
+                            <img src="assets/predial_apagado.png" id="btn-predial" onmouseover="this.src='assets/predial_encendido.png'"
+                                 onmouseout="this.src='assets/predial_apagado.png'">
+                        </a>
+                    </p>
+                    <br>
+                    <h1 class="has-text-centered" id="items">Predial</h1>
+                </div>
+                <div class="column">
+                    <p class="field">
+                        <a href="mercados_publicos.html" class="button" id="perfil-invisible">
+                            <img src="assets/mercadosapagado.png" id="btn-mercados" onmouseover="this.src='assets/mercadosencendido.png'"
+                                 onmouseout="this.src='assets/mercadosapagado.png'">
+                        </a>
+                    </p>
+                    <br>
+                    <h1 class="has-text-centered" id="items">Mercados Públicos</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hero" id="perfil-datos">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8">
+                    <p class="has-text-justified-desktop" id="subtitle"><span id="texto_rosa"> Recuperar Contraseña</span></p>
+                    <br>
+                    <div class="field">
+                        <p class="control">
+                            <input class="input" type="email" placeholder="* E-mail" id="login">
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <input class="input" type="email" placeholder="* Confirmar E-mail" id="login">
+                        </p>
+                    </div>
+                    <br>
+                    <div class="level-left">
+                        <div class="level-item">
+                            <p class="field">
+                                <a href="index.html" class="button is-medium has-text-centered" id="perfil-atras">
+                                    Regresar
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="level-right">
+                        <div class="level-item">
+                            <p class="field">
+                                <a href="#" class="button is-medium has-text-centered" id="perfil-continuar">
+                                    Continuar
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <h1 class="has-text-right" id="datos-leyenda">*Datos Obligatorios</h1>
+                    <br>
+                    <h1 class="has-text-right" id="datos-leyenda">Cuenta: <span id="texto-negro">gjuarez@finanzas.df.gob.mx</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section Politica -->
+<section class="hero" id="advertencia">
+    <div class="hero-body">
+        <div class="container">
+            <p class="has-text-justified" id="advertencia-sinpapel">
+                Este programa es de carácter público, no es patrocinado ni promovido por partido politico alguno y sus
+                recursos provienen de los impuestos que pagan todos los contribuyentes. está prohibido el uso de este
+                programa con fines políticos, electorales, de lucro y otros distintos a los establecidos. Quien haga uso
+                indebido de los recursos de este programa en la Ciudad de México, será sancionado de acuerdo con la ley
+                aplicable y ante la autoridad competente.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<div class="hero" id="footer">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Atención Ciudadana</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <p class="has-text-justified-desktop">
+                                <span id="strong">Dirección:</span> Calle Doctor Lavista 144, Colonia Doctores,
+                                Delegación Cuauhtémoc, C.P. 06720, Ciudad de México.
+                                <br>
+                                <span id="strong">Teléfono:</span> 55 88 33 88
+                            </p>
+                            <br>
+                            <br>
+                            <a href="http://www.finanzas.cdmx.gob.mx/" id="link-finanzas"><u>http://www.finanzas.cdmx.gob.mx/</u></a>
+                            <br>
+                            <br>
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <a href="https://es-es.facebook.com/FinanzasCDMX?sk=wall" class="icon-block" id="social">
+                                    <span class="icon">
+                                        <i class="fa fa-facebook"></i>
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="level-item">
+                                    <a href="https://twitter.com/Finanzas_CDMX" class="icon-block" id="social">
+                                    <span class="icon">
+                                        <i class="fa fa-twitter"></i>
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="level-item">
+                                    <a href="https://www.youtube.com/channel/UC2wcbLYzyWq5kL2t0M2MrFA?feature=guide" class="icon-block" id="social">
+                                    <span class="icon">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Navegación</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-justified-desktop">
+                                <a href="index.html" id="links-internos"><li>Inicio</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/secretaria" id="links-internos"><li>Secretaria</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/servicios" id="links-internos"><li>Servicios</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/programas" id="links-internos"><li>Programas</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/notificaciones" id="links-internos"><li>Notificaciones</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/secretaria/transparencia" id="links-internos"><li>Transparencia</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Sitios Relacionados</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-justified-desktop">
+                                <a href="http://www.data.consejeria.cdmx.gob.mx/index.php/gaceta" id="links-relacionados"><li>Gaceta Oficial de la Ciudad de México</li></a>
+                                <a href="http://www.fidere3.df.gob.mx/" id="links-relacionados"><li>Fidere</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/servicios-al-contribuyente/constancia-de-credito-simple" id="links-relacionados"><li>Contratación de Crédito Simple 2016</li></a>
+                                <a href="http://www.finanzas.cdmx.gob.mx/storage/app/uploads/public/585/c35/b5e/585c35b5e8c44585173852.pdf" id="links-relacionados"><li>Contrato de Crédito HSBC 2016</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h1 class="has-text-centered" id="subtitle"><span id="texto_blanco">Sitios Externos</span></h1>
+                    <div class="card" id="card">
+                        <div class="card-content">
+                            <ul class="has-text-centered">
+                                <a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/ventanillas_unicas_delegacionales_vud_aacs"><img src="assets/vud.svg"></li></a>
+                                <a href="http://www.tramitesyservicios.df.gob.mx/wb/TyS/directorio_de_responsables_de_cesac"><li><img src="assets/cesac.svg"></li></a>
+                                <a href="http://www.datosabiertos.cdmx.gob.mx"><li><img src="assets/datos.svg"></li></a>
+                                <a href="http://www.contratosabiertos.cdmx.gob.mx/"><li><img src="assets/contratos_abiertos.svg"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Brand Section -->
+<div class="hero" id="brand">
+    <div class="hero-body">
+        <div class="container">
+            <p class="has-text-centered" id="cdmx">
+                <img src="assets/Logo_CDMX.png">
+            </p>
+            <br>
+            <p class="has-text-centered">
+                <a href="http://www.finanzas.cdmx.gob.mx/terminos-y-condiciones#Datos-personales" id="info-personal"><u>Aviso de Privacidad</u></a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

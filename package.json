@@ -1,0 +1,28 @@
+{
+  "name": "spapel",
+  "version": "1.0.0",
+  "description": "rediseño del front-end del sistema Sin Papel CDMX de la Secretaria de Finanzas de la Ciudad de México",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CDMX",
+    "SEFIN",
+    "Secretaria",
+    "de",
+    "Finanzas",
+    "Ciudad",
+    "de",
+    "Mexico"
+  ],
+  "author": "FinanzasCDMX",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
+}
